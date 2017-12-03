@@ -8,7 +8,8 @@ const game = {
   guesses: guesses,
   wordToShow: showGuess(word, guesses),
   wrongGuessCount: 0,
-  isWinner: false
+  isWinner: false,
+  gameOver: false,
 }
 
 export default (state = game, { type, payload } = {}) => {
@@ -19,6 +20,7 @@ export default (state = game, { type, payload } = {}) => {
       newState.wordToShow = showGuess(newState.word, newState.guesses)
       newState.wrongGuessCount = wrongGuessCount(newState.word, newState.guesses)
       newState.isWinner = isWinner(newState.word, newState.guesses)
+      newState.gameOver = newState.wrongGuessCount === 6
 
       state = newState
      default :

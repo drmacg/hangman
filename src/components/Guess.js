@@ -15,6 +15,7 @@ class Guess extends PureComponent {
 
   guess() {
     this.props.guessGame(this.state.letter)
+    this.refs.letter.value = ""
   }
 
   render() {

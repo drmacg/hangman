@@ -23,11 +23,14 @@ yarn start
 
 # Preview
 
+Start game
 
 ![alt text](http://res.cloudinary.com/dic1tttru/image/upload/v1515685839/Screen_Shot_2018-01-11_at_16.50.14_yuhoiv.png)
 
+Lost game 
 
 ![alt text](http://res.cloudinary.com/dic1tttru/image/upload/v1515685738/Screen_Shot_2018-01-11_at_16.46.21_ewu9hj.png)
 
+Win game
 
 ![alt text](http://res.cloudinary.com/dic1tttru/image/upload/v1515685749/Screen_Shot_2018-01-11_at_16.47.33_ozhkl4.png)

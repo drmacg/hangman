@@ -15,7 +15,7 @@ Simple React-Redux application (assignment for Codaisseur Academy)
 Make sure you have [Yarn](https://yarnpkg.com/en/) and [NodeJS](https://nodejs.org/en/) installed.
 
 ```bash
-git clone https://github.com/floris09/hangman
+git clone https://github.com/gbosnjak/hangman
 cd hangman
 yarn install
 yarn start
